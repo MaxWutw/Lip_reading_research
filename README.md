@@ -16,6 +16,7 @@ Transformer。我們的字元錯誤率 (Character Error Rate, CER) 在 Overlappe
 - numpy == 1.19.5
 - opencv-python == 4.5.3 <br/>
 
+使用 `pip3 install -r requirements.txt` 可一鍵安裝。
 ## Each file description
 main.py : For training and validation<br>
 LCANet.py : modify from LCANet model<br>
