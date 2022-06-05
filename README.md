@@ -8,7 +8,13 @@
 Transformer。我們的字元錯誤率 (Character Error Rate, CER) 在 Overlapped 中最低可以得到
 2.4%，在 Unseen 中最低可以得到 8.4%。
 ## 環境要求
-在Python3 以上皆可
+- Python 3.8.11
+- torch == 1.9.0 + cu102
+- torchvision == 0.10.0+cu102
+- scikit_learn == 0.24.2
+- matplotlib == 3.4.2
+- numpy == 1.19.5
+- opencv-python == 4.5.3 <br/>
 
 ## Each file description
 main.py : For training and validation<br>
