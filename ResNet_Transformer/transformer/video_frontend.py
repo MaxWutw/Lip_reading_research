@@ -175,15 +175,3 @@ class visual_frontend(nn.Module):
             elif isinstance(m, nn.BatchNorm1d):
                 m.weight.data.fill_(1)
                 m.bias.data.zero_()
-
-# def visual_model():
-#     model = visual_frontend(hiddenDim=512, embedSize=256)
-#     pretrained_dict = torch.load('/home/luomingshuang/2020-ECCV-Transformer-A-V/transformer-V/visual_transformer_LRS2/tf2torch_visual_frontend.tar')
-#     model_dict = model.state_dict()
-#     model_dict.update(pretrained_dict)
-#     model.load_state_dict(model_dict)
-#     print('loading visual_frontend successful!')
-#     return model
-
-#visual_model()
-# print('load successful!')
